@@ -1,6 +1,5 @@
 import express from "express";
-import products from "../models/products";
-
+import productsController  from "../controllers/productsController.js";
 //router() nos ayuda a colocar los metodos
 // que tendra el endpoint
 

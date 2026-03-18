@@ -15,7 +15,7 @@ const productsSchema = new Schema({
     }
 }, {
     timestamps: true,
-    strict: false     
+    strict: false       
 })
 
 export default model("products", productsSchema)
