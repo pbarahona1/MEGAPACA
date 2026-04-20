@@ -53,7 +53,7 @@ loginCustomersController.login = async (req, res) => {
         //Resetear intentos si login correcto
         customerFound.loginAttemps = 0
         customerFound.timeOut = null;
- 
+  
         //Generar el token
         const token = JsonWebToken.sign(
             //#1- Que datos va a guardar
